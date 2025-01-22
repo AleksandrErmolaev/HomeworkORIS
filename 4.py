@@ -15,7 +15,7 @@ def calculate_fibonacci_part(numbers, results, thread_index):
 
 if __name__ == "__main__":
     num_threads = int(input("Введите количество потоков: "))
-    numbers_to_calculate = list(range(30)) #Задаем числа, на которых нужно произвести вычисления
+    numbers_to_calculate = list(range(30))
 
     chunk_size = len(numbers_to_calculate) // num_threads
     ranges = []

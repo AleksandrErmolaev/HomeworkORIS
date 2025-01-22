@@ -1,5 +1,4 @@
 import threading
-import math
 
 def factorial_part(start, end, num, results, lock):
     res = 1

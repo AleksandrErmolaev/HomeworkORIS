@@ -59,4 +59,3 @@ if __name__ == "__main__":
     sorted_counts = sorted(results.items(), key=lambda item: item[1], reverse=True)
     for word, count in sorted_counts:
       print(f"{word}: {count}")
-    print(f"\nВремя выполнения: {elapsed_time:.4f} секунд.")
